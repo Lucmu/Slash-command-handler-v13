@@ -37,3 +37,4 @@ for (const file of slashcommandsFiles) {
 };
 
 client.login(require("./config.json").token);
+module.exports = client;
