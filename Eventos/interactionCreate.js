@@ -5,4 +5,4 @@ module.exports = async (client, interaction) => {
   const slashcmd = client.slashcommands.get(interaction.commandName);
   if (!slashcmd) return;
   if (slashcmd) slashcmd.run(client, interaction);
-})
+}
